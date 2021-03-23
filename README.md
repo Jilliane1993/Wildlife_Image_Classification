@@ -35,7 +35,7 @@ At this point the model has a validation loss score of 0.29 and an F1 Score of 0
 
 Given the short time period this project was initially due in I did not have a particularly time efficent way to address the issue of single labels on multi-species images so I instead focused on the mislabeling related to image sequences. I created a [new version](04First_Frames_Only.ipynb) of the test dataset that only used the first frame from each image sequence set under the assumption the first image was most likely the one labeled correctly. I then went on to fine tune my model using this version of the dataset as seen in [this notebook](05Transfer_Learning_Frame1.ipynb), I used the same seed for the train validation split as I had previously in the hopes of reducing data bleed as much as possible. This halved the validation loss and increased the F1 Score to 0.79, while many of the issues that were present with the original dataset are still present in this version they appear to be less frequent. Overall it appears that the model is more confident in its correct labeling and less confident in its incorrect ones while overall performances is still somewhat stiffled by problems with the dataset itself. This is further reinforced by the findings of [this notebook](06Inerpretation_with_validation_sample.ipynb) which shows via a confusion matrix of a subsection of the validation set the models fails the most when labeling images as empty when the dataset says they are not and mislabeling species that congregate together. 
 
-[Validation sample confusion Matrix](Images/giant_confusion_matrix.png)
+![Validation sample confusion Matrix](Images/giant_confusion_matrix.png)
 
 ## Classification App and Future Plans
 
