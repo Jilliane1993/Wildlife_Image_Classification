@@ -6,7 +6,7 @@ Here's a link to app I made for my Wildlife Image Classifier. I apologize if it 
 
 As someone with a lifelong passion for ecology and wildlife conservation working with data focused on wildlife populations for my final project at Metis was an obvious choice. Early on in exploring what data science is and what it can do I became interested in computer vision, much of animal science in my experience has been about visual observations from identifying an animal and its species to assessing body condition and behavioral cues, which is why I wanted to use this project at a starting point to explore data science applications in the realm of wildlife conservation. I noticed that much of the labeling of image data for the creation of usable datasets is done manually, using deep learning image classification I want to at least semi-automate this process. The more quickly and efficently these types of images can be curated into usable datasets the more quickly they can be used in further modeling towards actionable insights. I also thought this would be a great project to continue to build on, if I can build a model that succesfully identify species purhaps in the future I could add to this model or a new one that does a more complex identification such as behavior based off body positioning.
 
-A summary of my project work as well as some future goals can be found in [this presentation](placeholder). 
+A summary of my project work as well as some future goals can be found in [this presentation](Wildlife_Indentification_Presentation.pdf). 
 
 ## Data Used
 
